@@ -1,2 +1,12 @@
 # A Divide-and-Conquer Fusion Algorithm for Multi-Target Tracking in Multi-Sensor Networks Based on the PMBM Filter
 To address the high computational complexity and data association challenges in multi-sensor networks, this paper proposes a spatial-adaptive confidence-weighted Poisson multi-Bernoulli mixture (SACW-PMBM) algorithm that applies a divide-and-conquer fusion strategy, reformulating the global multi-target estimation problem into a series of localized, weighted tasks. Existing distributed PMBM fusion methods, such as those employing the weighted arithmetic average (WAA) or generalized covariance intersection (GCI), utilize a single scalar weight per sensor, which fails to capture spatially varying information quality. The primary contribution of this work is to replace these scalar weights with a state-dependent confidence function, $\omega ^{\left( s \right)}\left( x \right) $, that dynamically models sensor reliability across the state space. This confidence function is constructed using a variational autoencoder (VAE) that jointly represents local information entropy and environmental disturbances. We subsequently derive a novel fusion criterion by minimizing the confidence-weighted Kullback-Leibler (KL) divergence between the local sensor posteriors and the fused global density. A computationally tractable hierarchical architecture is also developed to manage hypothesis complexity. Simulation results in challenging scenarios with severe occlusion and non-uniform clutter demonstrate that the proposed SACW-PMBM algorithm achieves superior tracking accuracy and robustness compared to benchmark centralized PMBM (C-PMBM), WAA, and GCI fusion methods.
+
+@ARTICLE{11489120,
+  author={Xie, Xingxiang and Liu, Jinxin and Wu, Sunyong and Fu, Chunyun and Guan, Mingxiang and Song, Zhumei and Li, Kening and Yuan, Jixuan and Li, Liming},
+  journal={IEEE Transactions on Automation Science and Engineering}, 
+  title={A Divide-and-Conquer Fusion Algorithm for Multi-Target Tracking in Multi-Sensor Networks Based on the PMBM Filter}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TASE.2026.3685820}}
